@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width">
+	<title>실로암요양원</title>
+	<link href="css/common.css" rel="stylesheet" />    
+	<link href="css/sub.css" rel="stylesheet" />
+	<link href="css/board.css" rel="stylesheet" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+</head>
+
+<body>
+
+	<!-- skip -->
+
+	<ul id="skip_navi">   
+		<li><a href="#content">본문 바로가기</a></li>    
+	</ul>
+
+	<!-- wrap -->
+
+    <div class="wrap">
+
+		<!-- header -->
+
+		<div id="header">
+
+			<div class="util">
+				<ul>
+					<li><a href="index.html">실로암 요양원 홈페이지</a></li>
+				</ul>
+			</div>
+
+			<div class="h_group">
+				<div>
+					<h1>
+						<a href="index.html"><img src="img/common/logo.png" alt="실로암요양원" /></a>
+					</h1>
+					<div id="gnb">
+						<button class="btn_menu" type="button">전체메뉴 열기</button>
+						<div class="box">
+                            <button class="btn_close" type="button">전체메뉴 닫기</button>
+							<ul>
+								<li><a href="#"><span>직원 알림마당</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- header -->
+
+		<!-- container -->
+
+        <div class="container">
+
+			<div class="spot bg07">
+				<div class="inner">
+					<div class="cell">
+						웃음꽃이 활짝피는 <strong>행복한 요양원</strong>
+					</div>
+				</div>
+			</div>
+
+			<div class="path">
+				<ul>
+					<li class="home"><a href="#">홈</a></li>
+					<li><a href="#" target="_top">요양원소개</a></li>
+					<li>인사말</li>
+				</ul>
+			</div>
+
+			<div class="page_wrap">
+
+				<!-- snb -->
+
+				<div class="snb">
+					<div class="snb_list">
+						<h2 class="snb_tit"><span>직원관리</span></h2>
+						<ul class="snb_nav">
+							<li class="on"><a href="#">직원관리</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- //snb -->
+
+				<div id="content" class="conts">
+					<div class="inner">     
+
+						<h3 class="tit_txt ci06">직원관리</h3>
+
+						<div class="bod_head">
+							<div class="total">총 <em class="num">5건</em>의 게시물이 있습니다.</div>
+							<div class="search_wrap">
+								<form method="post" action="#">
+									<div class="search_type">
+										<select class="select" name="field" id="field" title="검색 조건">
+											<option value="all" selected="selected">전체</option>
+											<option value="">제목</option>
+											<option value="">작성자</option>
+										</select>
+										<input type="text" name="key" id="key" class="search_input" placeholder="검색어를 입력하세요." title="검색어 입력">
+										<input type="submit" class="btn_search" name="submit" value="검색">
+									</div>
+								</form>
+							</div>
+						</div>
+						
+						<div class="bod_list">
+							<table>
+								<caption>직원관리 리스트</caption>
+								<colgroup>
+									<col style="width:5%;"> 
+									<col style="width:15%;"> 
+									<col style="width:13%;"> 
+									<col style="width:15%;"> 
+									<col style="width:15%;">
+									<col style="width:25%;"> 
+									<col style="width:12%;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col"></th>
+										<th scope="col">이름</th>
+										<th scope="col">생년월일</th>
+										<th scope="col">전화번호(핸드폰)</th>
+										<th scope="col">이메일</th>
+										<th scope="col">주소</th>
+										<th scope="col">메모</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><input type="checkbox" name="secret_flag" id="secret_flag" class="secret_flag"></td>
+										<td>홍길동</td>
+										<td>2017/03/10</td>
+										<td>010-1111-2222</td>
+										<td>test@test.co.kr</td>
+										<td>성수시 성수동 11-1</td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!-- //게시물이 없을 경우  -->
+
+							<!-- <div class="no_cont">해당 게시판의 글이 존재하지 않습니다.</div> -->
+						</div>
+
+						<div class="bn_wrap">
+							<div class="fr">
+								<button type="submit" name="enrollBtn" value="수정">수정</button>
+							</div>
+						</div>
+						
+						<div class="paging">
+							<button class="btn_first"><span class="blind">처음으로</span></button>
+							<button class="btn_prev"><span class="blind">이전 페이지</span></button>
+							<a class="on" href="javascript:void(0);" title="현재 페이지">1</a>
+							<a href="javascript:void(0);">2</a>
+							<a href="javascript:void(0);">3</a>
+							<a href="javascript:void(0);">4</a>
+							<a href="javascript:void(0);">5</a>
+							<button class="btn_next"><span class="blind">다음 페이지</span></button>
+							<button class="btn_last"><span class="blind">마지막 페이지</span></button>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<!-- //container -->
+		
+		<!-- footer -->
+
+		<script src="inc/footer.js"></script>
+		
+		<!-- //footer -->
+   
+	</div>
+
+	<!-- //wrap -->
+
+	<script src="inc/widget.js"></script>
+
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/common.js"></script>    
+
+</body>
+</html>
