@@ -23,10 +23,10 @@ SUMMARY :
 .visual .slick-track {overflow:hidden}
 .visual .slick-track div {height:840px}
 
-.visual div.d_01 {background:url(../img/main/banner_01.png) repeat 50% 50%}
-.visual div.d_02 {background:url(../img/main/banner_02.png) repeat 50% 50%}
-.visual div.d_03 {background:url(../img/main/banner_01.png) repeat 50% 50%}
-.visual div.d_04 {background:url(../img/main/banner_02.png) repeat 50% 50%}
+.visual div.d_01 {background:url(../img/main/banner_01.jpg) repeat 50% 50%}
+.visual div.d_02 {background:url(../img/main/banner_02.jpg) repeat 50% 50%}
+.visual div.d_03 {background:url(../img/main/banner_01.jpg) repeat 50% 50%}
+.visual div.d_04 {background:url(../img/main/banner_02.jpg) repeat 50% 50%}
 
 .message {display:table;height:100%;margin:0 auto;text-align:center}
 .message .inner {display:table-cell;vertical-align:middle}
@@ -189,7 +189,7 @@ SUMMARY :
 	.visual div.d_01,
 	.visual div.d_02,
 	.visual div.d_03,
-	.visual div.d_04 {background:url(../img/main/banner_mobile.png) repeat 50% 0}
+	.visual div.d_04 {background:url(../img/main/banner_mobile.jpg) repeat 50% 0}
 
 	.message {display:table;height:100%;margin:0 auto;text-align:center}
 	.message .inner {display:table-cell;vertical-align:middle}

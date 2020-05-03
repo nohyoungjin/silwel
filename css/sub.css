@@ -11,13 +11,13 @@ SUMMARY :
 
 /* page head */
 
-.spot {width:100%;height:280px;background:url(../img/common/visual_1.png) no-repeat center top;font-size:38px;color:#fff;text-align:center}
-.spot.bg02 {background:url(../img/common/visual_2.png) no-repeat center top}
-.spot.bg03 {background:url(../img/common/visual_3.png) no-repeat center top}
-.spot.bg04 {background:url(../img/common/visual_4.png) no-repeat center top}
-.spot.bg05 {background:url(../img/common/visual_5.png) no-repeat center top}
-.spot.bg06 {background:url(../img/common/visual_6.png) no-repeat center top}
-.spot.bg07 {background:url(../img/common/visual_7.png) no-repeat center top}
+.spot {width:100%;height:280px;background:url(../img/common/visual_1.jpg) no-repeat center top;font-size:38px}
+.spot.bg02 {background:url(../img/common/visual_2.jpg) no-repeat center top}
+.spot.bg03 {background:url(../img/common/visual_3.jpg) no-repeat center top}
+.spot.bg04 {background:url(../img/common/visual_4.jpg) no-repeat center top}
+.spot.bg05 {background:url(../img/common/visual_5.jpg) no-repeat center top}
+.spot.bg06 {background:url(../img/common/visual_6.jpg) no-repeat center top}
+.spot.bg07 {background:url(../img/common/visual_7.jpg) no-repeat center top}
 
 .spot .inner {display:table;position:relative;top:0;width:100%;height:280px;text-align:center}
 .spot .inner .cell {display:table-cell;vertical-align:middle;color:#fff}
@@ -69,9 +69,9 @@ SUMMARY :
 .invite .fl {float:left;width:33%}
 .invite .fr {float:left;width:67%}
 
-.invite p.title {padding:0 0 20px;font-size:24px;color:#4d4d4d;text-align:justify;line-height:30px}
+.invite p.title {padding:0 0 20px;font-size:24px;color:#4d4d4d;text-align:justify;line-height:30px;letter-spacing:-0.5px}
 .invite p.sign {padding:30px 0 20px;font-size:18px;text-align:right}
-.invite p {padding:0 0 10px;font-size:15px;color:#4d4d4d;text-align:justify;line-height:30px}
+.invite p {padding:0 0 10px;font-size:15px;color:#4d4d4d;text-align:justify;line-height:30px;letter-spacing:-0.5px}
 
 /* 법인소개 */
 
