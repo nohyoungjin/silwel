@@ -9,6 +9,7 @@
 	<link href="css/sub.css" rel="stylesheet" />
 	<link href="css/board.css" rel="stylesheet" />
 	<link href="css/jquery.fancybox.css" rel="stylesheet" />
+	<script src="inc/snb.js"></script>
 	<script src="js/jquery-1.11.2.min.js"></script>
 </head>
 
@@ -54,16 +55,13 @@
 
 				<!-- snb -->
 
-				<div class="snb">
-					<div class="snb_list">
-						<h2 class="snb_tit"><span>요양원소개</span></h2>
-						<ul class="snb_nav">
-							<li class="on"><a href="#">공지사항</a></li>
-							<li><a href="#">실로암소식지</a></li>
-							<li><a href="#">포토갤러리</a></li>
-						</ul>
-					</div>
-				</div>
+				<div id="snb" class="snb"></div>
+
+				<script>
+
+					$(function() { snb('notify', 'snb', 3); });
+
+				</script>
 
 				<!-- //snb -->
 
