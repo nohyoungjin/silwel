@@ -2,7 +2,10 @@ function snb(cate, snb, chk) {
 
 	var uniq = {
 
-		'comp'     : '요양원소개'
+		'comp'     : '요양원소개',
+		'bulid'    : '시설안내',
+		'donat'    : '사랑나눔',
+		'notify'   : '알림마당'
 
 	};
 
@@ -22,7 +25,29 @@ function snb(cate, snb, chk) {
 		str += '	<li><a href="map.html">오시는길</a></li>';
 
 	}
+
+	if ( cate == 'bulid' ) {
+
+		str += '	<li><a href="city.html">시설안내</a></li>';
+		str += '	<li><a href="camp.html">입소안내</a></li>';
+
+	}
 	
+	if ( cate == 'donat' ) {
+
+		str += '	<li><a href="support.html">후원신청</a></li>';
+		str += '	<li><a href="volunteer.html">자원봉사신청</a></li>';	
+
+	}
+
+	if ( cate == 'notify' ) {
+
+		str += '	<li><a href="s_list.html">공지사항</a></li>';
+		str += '	<li><a href="g_list.html">실로암소식지</a></li>';
+		str += '	<li><a href="p_list.html">포토갤러리</a></li>';
+
+	}
+
 	str += '	</ul>';
 	str += '</div>';
 

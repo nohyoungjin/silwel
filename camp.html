@@ -7,6 +7,7 @@
 	<title>실로암요양원</title>
 	<link href="css/common.css" rel="stylesheet" />    
 	<link href="css/sub.css" rel="stylesheet" />
+	<script src="inc/snb.js"></script>
 	<script src="js/jquery-1.11.2.min.js"></script>
 </head>
 
@@ -52,15 +53,13 @@
 
 				<!-- snb -->
 
-				<div class="snb">
-					<div class="snb_list">
-						<h2 class="snb_tit"><span>요양원소개</span></h2>
-						<ul class="snb_nav">
-							<li class="on"><a href="#">시설안내</a></li>
-							<li><a href="#">입소안내</a></li>
-						</ul>
-					</div>
-				</div>
+				<div id="snb" class="snb"></div>
+
+				<script>
+
+					$(function() { snb('bulid', 'snb', 2); });
+
+				</script>
 
 				<!-- //snb -->
 
