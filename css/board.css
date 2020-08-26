@@ -76,10 +76,10 @@ SUMMARY :
 .paging .btn_prev {margin-right:8px}
 .paging .btn_next {margin-left:8px}
 
-.btn_first {background:url(../img/common/img_common.png) no-repeat -499px -6px}
-.btn_prev {background:url(../img/common/img_common.png) no-repeat -540px -6px}
-.btn_next {background:url(../img/common/img_common.png) no-repeat -577px -6px}
-.btn_last {background:url(../img/common/img_common.png) no-repeat -618px -6px}
+.btn_first {background:url(../img/common/sp_common.png) no-repeat -499px -6px}
+.btn_prev {background:url(../img/common/sp_common.png) no-repeat -540px -6px}
+.btn_next {background:url(../img/common/sp_common.png) no-repeat -577px -6px}
+.btn_last {background:url(../img/common/sp_common.png) no-repeat -618px -6px}
 
 .btn_first:hover,
 .btn_first:focus {background-position:-499px -46px}

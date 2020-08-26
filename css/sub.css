@@ -27,24 +27,24 @@ SUMMARY :
 .path {height:50px;border-bottom:1px solid #ddd;background-color:#f0f0f0}
 .path ul {max-width:1280px;margin:0 auto}
 .path ul:after {display:block;clear:both;content:''}
-.path ul li:first-child {width:50px;background:url(../img/common/home.png) 50% 50% no-repeat}
+.path ul li:first-child {width:50px;background:url(../img/common/ico_home.png) 50% 50% no-repeat}
 .path ul li:first-child a {display:inline-block;position:absolute;top:50%;left:50%;width:17px;height:15px;margin:-7px 0 0 -8px;font-size:0}
 .path ul li:first-child img {vertical-align:middle}
 .path ul li {position:relative;float:left;height:51px;border-left:1px solid #ddd;font-size:14px;text-align:center;line-height:51px}
-.path ul li + li {overflow:hidden;min-width:96px;background:url(../img/common/h_arrow.png) 100% 48% no-repeat}
+.path ul li + li {overflow:hidden;min-width:96px;background:url(../img/common/ico_arrow.png) 100% 48% no-repeat}
 .path ul li + li + li {min-width:64px;border-left:0;background:none}
 
 /* snb */
 
 .snb .snb_list {width:100%}
-.snb .snb_list .snb_tit {display:table;width:100%;height:160px;background:url(../img/common/snb_tit.png) no-repeat;text-align:center;font-size:30px;font-weight:normal;color:#fff}
+.snb .snb_list .snb_tit {display:table;width:100%;height:160px;background:url(../img/common/bg_snb.png) no-repeat;text-align:center;font-size:30px;font-weight:normal;color:#fff}
 .snb .snb_list .snb_tit span {display:table-cell;padding:4px 12px;vertical-align:middle}
 
 .snb .snb_list .snb_nav li {border-bottom:1px solid #ddd}
 .snb .snb_list .snb_nav li a {display:block;width:100%;height:55px;padding:0 0 0 30px;font-size:16px;line-height:55px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-.snb .snb_list .snb_nav li.on a {background:url(../img/common/bul_on.png) no-repeat 174px center #eee;font-weight:700;color:#0f5185}
+.snb .snb_list .snb_nav li.on a,
 .snb .snb_list .snb_nav li a:hover,
-.snb .snb_list .snb_nav li a:focus {background:url(../img/common/bul_on.png) no-repeat 174px center #eee;font-weight:700;color:#0f5185}
+.snb .snb_list .snb_nav li a:focus {background:url(../img/common/bu_on.png) no-repeat 174px center #eee;font-weight:700;color:#0f5185}
 
 .snb .snb_list .snb_nav li ul {padding:20px 0;border-top:1px solid #7aa2aa}
 .snb .snb_list .snb_nav li ul li {border-bottom:none}
@@ -344,7 +344,7 @@ SUMMARY :
 	.path {background-color:#fff}
 	.path ul {max-width:100%}
 	.path ul li {border-left:0}
-	.path ul li:first-child {width:50px;background:#005bac url(../img/common/home_white.png) 50% 50% no-repeat}
+	.path ul li:first-child {width:50px;background:#005bac url(../img/common/ico_home_white.png) 50% 50% no-repeat}
 
 	/* snb */
 

@@ -26,7 +26,7 @@ table {border-collapse:collapse;border-spacing:0}
 td,th {padding:0}
 
 body {background:#fff}
-body,th,td,input,select,textarea,button {font-family:'Noto Sans Korean','Nanum Gothic','Malgun Gothic',dotum,gulim;font-size:13px;font-weight:400;font-style:normal;color:#333;line-height:1.5} 
+body,th,td,input,select,textarea,button {font-family:'Noto Sans KR','Nanum Gothic','Malgun Gothic',dotum,gulim;font-size:13px;font-weight:400;font-style:normal;color:#333;line-height:1.5} 
 a {color:#333;text-decoration:none}
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 
@@ -57,7 +57,7 @@ html, body {width:100%;height:100%}
 
 /* ico */
 
-.ico {display:inline-block;background-image:url(../img/common/img_common.png);background-repeat:no-repeat;vertical-align:middle;text-indent:-99999px}
+.ico {display:inline-block;background-image:url(../img/common/sp_common.png);background-repeat:no-repeat;vertical-align:middle;text-indent:-99999px}
 
 /* width */
 
@@ -137,8 +137,8 @@ html, body {width:100%;height:100%}
 .family:before {content:'';display:inline-block;position:absolute;top:0;right:90px;width:1px;height:34px;margin-left:-4px;background-color:#d8d8d8}
 .family:after {content:"";clear:left;display:block}
 
-.family .f_btn {float:left;width:145px;height:32px;margin:0 7px 0 0;padding:0 0 0 15px;border:1px solid #d9d9d9;background:#fff url(../img/common/arr_up.png) no-repeat 140px center;color:#333;font-size:14px;line-height:32px}
-.family .f_btn.open {background:#fff url(../img/common/arr_down.png) no-repeat 140px center}
+.family .f_btn {float:left;width:145px;height:32px;margin:0 7px 0 0;padding:0 0 0 15px;border:1px solid #d9d9d9;background:#fff url(../img/common/ico_up.png) no-repeat 140px center;color:#333;font-size:14px;line-height:32px}
+.family .f_btn.open {background:#fff url(../img/common/ico_down.png) no-repeat 140px center}
 
 .f_list {display:none;float:left;position:absolute;left:0px;bottom:36px;z-index:100;width:160px;border:1px solid #4c4c4c;background-color:#fff}
 .f_list li {line-height:34px}
@@ -198,8 +198,8 @@ html, body {width:100%;height:100%}
 	#gnb > .box > ul > li:first-child {border-top:1px solid #555}
 	#gnb > .box > ul > li > a {padding:15px 24px;background:#424242}
 
-	#gnb > .box > ul > li > a span {padding-bottom:0px;background:url(../img/common/bul_down.gif) no-repeat 100% 8px;color:#fdfdfd}
-	#gnb > .box > ul > li.current > a span {background:url(../img/common/bul_up.gif) no-repeat 100% 8px;color:#fdfdfd}
+	#gnb > .box > ul > li > a span {padding-bottom:0px;background:url(../img/common/bu_down.gif) no-repeat 100% 8px;color:#fdfdfd}
+	#gnb > .box > ul > li.current > a span {background:url(../img/common/bu_up.gif) no-repeat 100% 8px;color:#fdfdfd}
 	#gnb > .box > ul > li > a:hover span,
 	#gnb > .box > ul > li > a:focus span {color:#fdfdfd}
 
