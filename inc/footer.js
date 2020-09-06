@@ -1,5 +1,5 @@
 str = ''
-str += '<div class="footer">'
+str += '<div id="footer">'
 str += '	<div class="f_wrap">'
 str += '		<div class="f_holder">'
 str += '			<p class="txt">FAMILY SITE</a></p>'

@@ -359,13 +359,12 @@ SUMMARY :
 
 	/* 인사말 */
 
-	.invite {padding:5px 20px 20px}
+	.invite {padding:5px 15px 20px}
 	.invite .fl {float:none;width:100%;margin:30px 0 20px;text-align:center}
 	.invite .fr {float:none;width:100%}
 
-	.invite p.title {text-align:center}
 	.invite p.sign {text-align:center}
-	.invite p {font-size:13px;text-align:center}
+	.invite p {font-size:13px;line-height:23px}
 	.invite p br {display:none}
 
 }
