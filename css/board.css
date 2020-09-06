@@ -465,6 +465,8 @@ SUMMARY :
 	.support_view > ul > li.s_education > strong {height:116px}
 	.support_view > ul > li.s_trial > strong {height:165px}
 
+	.box_2 .consent {text-align:left}
+
 }
 
 @media (max-width: 700px) {

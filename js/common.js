@@ -67,7 +67,7 @@ $(function() {
 			}
 		}); 
 
-		$(document).on('focus', '.h_group h1 a, .short-cut ul li a, .btn_link, .home a', function() {
+		$(document).on('focus', '.h_group h1 a, .short-cut ul li a, .btn_link', function() {
 			if ($('body').data('device') != 'mobile') {
 				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height': '104px'}, 300, function() {
 					$('#gnb > .box > ul > li').siblings().children('.sub_menu').hide();
