@@ -179,6 +179,9 @@ SUMMARY :
 .cont_staff ul.intro > li .profile {overflow:hidden;float:left;padding-left:25px}
 .cont_staff ul.intro > li .profile li {padding:0 0 8px 35px;font-size:13px}
 
+.cont_staff ul.intro > li .profile li:nth-child(4),
+.cont_staff ul.intro > li .profile li:nth-child(5) {padding:0 0 4px 35px}
+
 .cont_staff ul.intro > li .profile li.duty {background:url(../img/comp/duty.png) no-repeat 0 0;font-size:15px}
 .cont_staff ul.intro > li .profile li.name {background:url(../img/comp/name.png) no-repeat 6px 0;font-size:15px}
 .cont_staff ul.intro > li .profile li.work {background:url(../img/comp/work.png) no-repeat 4px 0;font-size:15px}
