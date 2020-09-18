@@ -43,7 +43,7 @@ $(function() {
 
 		$('#gnb').on('mouseenter', '> .box > ul > li', function() {
 			if ($('body').data('device') != 'mobile') {
-				$(this).parents('.h_group').stop().animate({'height': '360px'}, 300);
+				$(this).parents('.h_group').stop().animate({'height': '380px'}, 300);
 				$('#gnb .sub_menu').show();
 			}
 		});
@@ -61,7 +61,7 @@ $(function() {
 		$('#gnb').on('focusin', '> .box > ul > li > a', function() {
 			if ($('body').data('device') != 'mobile') {
 				if ($('.h_group').hasClass('on') == false) {
-					$(this).parents('.h_group').stop().animate({'height': '360px'}, 300);
+					$(this).parents('.h_group').stop().animate({'height': '380px'}, 300);
 					$('#gnb .sub_menu').show();
 				}
 			}
@@ -111,8 +111,8 @@ $(function() {
 
 			if ($('body').data('device') == 'mobile') {
 
-				$(this).parent().find('> .sub_menu > .inner > ul').filter(':not(:animated)').slideToggle();
-				$('#gnb > .box > ul > li > .sub_menu > .inner > ul').filter(':not(:animated)').slideUp('fast');
+				$(this).parent().find('> .sub_menu > ul').filter(':not(:animated)').slideToggle();
+				$('#gnb > .box > ul > li > .sub_menu > ul').filter(':not(:animated)').slideUp('fast');
 
 				if ($(this).parent().hasClass('current')) {
 					$(this).parent().removeClass('current');

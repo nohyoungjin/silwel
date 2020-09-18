@@ -26,34 +26,9 @@
 
 		<!-- header -->
 
-		<div id="header">
+		<script src="inc/admin.js"></script>
 
-			<div class="util">
-				<ul>
-					<li><a href="index.html">실로암 요양원 홈페이지</a></li>
-				</ul>
-			</div>
-
-			<div class="h_group">
-				<div>
-					<h1>
-						<a href="index.html"><img src="img/common/logo.png" alt="실로암요양원" /></a>
-					</h1>
-					<div id="gnb">
-						<button class="btn_menu" type="button">전체메뉴 열기</button>
-						<div class="box">
-                            <button class="btn_close" type="button">전체메뉴 닫기</button>
-							<ul>
-								<li><a href="#"><span>직원 알림마당</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-		<!-- header -->
+		<!-- //header -->
 
 		<!-- container -->
 
@@ -71,14 +46,14 @@
 
 				<h3 class="title">실로암요양원 직원전용 홈페이지</h1>
 
-				<form class="form-join" name="loginform" id="loginform" action="#" method="post">
+				<form method="post" name="loginform" action="#" id="loginform" class="form-join">
 					<div class="form-group">
-						<input class="form-field" type="text" name="user_login" id="user_login" placeholder="아이디">
+						<input type="text" name="user_login" id="user_login" class="form-field" placeholder="아이디">
 					</div>
 					<div class="form-group">
-						<input class="form-field" type="password" name="user_pass" id="user_pass" placeholder="비밀번호">
+						<input type="password" name="user_pass" id="user_pass" class="form-field" placeholder="비밀번호">
 					</div>
-					<input class="btn btn-submit" type="submit" value="로그인">
+					<input type="submit" class="btn btn-submit" value="로그인">
 				</form>
 
 				<ul class="user-link">

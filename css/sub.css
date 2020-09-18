@@ -300,7 +300,7 @@ SUMMARY :
 
 /* 로그인 */
 
-.box-user {margin:80px auto;width:400px;padding:60px;background-color:#fff}
+.box-user {width:400px;margin:80px auto;padding:60px;background-color:#fff}
 .box-user .title {position:relative;margin:0 0 10px;padding-bottom:15px;font-size:30px;color:#043b73;text-align:center;letter-spacing:-1px}
 
 .box-user .form-group {padding:5px 0}
@@ -314,11 +314,6 @@ SUMMARY :
 .box-user .col-half {float:left;width:50%}
 .box-user .col-half.text-right {width:50%;text-align:right}
 .box-user .col-half.text-right a {padding:5px 24px;border:1px solid #ccc;background-color:#ebeff2;cursor:pointer;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
-
-/* .box-user .login-username {padding:5px 0}
-.box-user .login-password {padding:5px 0}
-.box-user .input {width:100%;height:47px;padding:0 16px;border:1px solid #ccc;background-color:#fff;color:#2e2e2e;font-size:16px}
-.box-user .button-primary {display:block;width:100%;margin-top:16px;padding:12px 10px;border:0;background-color:#043b73;font-size:15px;color:#fff;text-align:center;cursor:pointer;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px} */
 
 /* 사이트맵 */
 
@@ -335,7 +330,7 @@ SUMMARY :
 .sitemap_set {display:inline-block;width:16%;padding:0 0 0 3.6%;vertical-align:top}
 .sitemap_set h2 {height:75px;font-weight:normal}
 .sitemap_set h2 a {font-size:24px}
-.sitemap_set ul > li {margin-bottom:15%}
+.sitemap_set ul > li {margin-bottom:8%}
 .sitemap_set ul > li > a {font-size:16px;color:#555}
 
 /* */
@@ -456,6 +451,11 @@ SUMMARY :
 	.tab-button-outer {display:none;position:relative;z-index:2}
 	.tab-select-outer {display:block}
 	.tab-contents {position:relative;top:-1px;margin-top:0}
+
+	/* 로그인 */
+
+	.box-user .title {font-size:20px}	
+	.box-user {width:100%;padding:10px;box-sizing:border-box}
 
 }
 
