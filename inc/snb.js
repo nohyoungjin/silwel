@@ -14,7 +14,7 @@ function snb(cate, snb, chk) {
 	str += '	<h2 class="snb_tit"><span>' + uniq[cate] + '</span></h2>';
 	str += '	<ul class="snb_nav">';
 
-	if ( cate == 'comp' ) {
+	if (cate == 'comp') {
 
 		str += '	<li><a href="greeting.html">인사말</a></li>';
 		str += '	<li><a href="intro.html">법인소개</a></li>';
@@ -26,21 +26,21 @@ function snb(cate, snb, chk) {
 
 	}
 
-	if ( cate == 'bulid' ) {
+	if (cate == 'bulid') {
 
 		str += '	<li><a href="city.html">시설안내</a></li>';
 		str += '	<li><a href="camp.html">입소안내</a></li>';
 
 	}
 	
-	if ( cate == 'donat' ) {
+	if (cate == 'donat') {
 
 		str += '	<li><a href="support.html">후원신청</a></li>';
 		str += '	<li><a href="volunteer.html">자원봉사신청</a></li>';	
 
 	}
 
-	if ( cate == 'notify' ) {
+	if (cate == 'notify') {
 
 		str += '	<li><a href="s_list.html">공지사항</a></li>';
 		str += '	<li><a href="g_list.html">실로암소식지</a></li>';

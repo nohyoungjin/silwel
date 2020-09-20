@@ -67,14 +67,14 @@ SUMMARY :
 }
 .row:after {content:'.';display:block;visibility:hidden;clear:both;height:0;line-height:0}
 
-.row ul {max-width:1280px;margin:0 auto;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-.row ul:after {content:'.';display:block;clear:both;visibility:hidden;height:0;line-height:0}
-.row ul li {position:relative;float:left;width:16.6%;height:197px;text-align:center;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.row ul {max-width:1280px;margin:0 auto}
+.row ul:after {display:block;clear:both;content:''}
+.row ul li {position:relative;float:left;width:16.6%;height:197px;text-align:center}
 
 .row ul li:first-child:after {display:none}
 .row ul li:after {content:'';display:block;position:absolute;top:50%;left:0;width:2px;height:97px;margin:-48.5px 0 0 -1px;background:url(../img/main/bar.png) 100% 50% no-repeat}
 
-.row ul li a {display:block;padding:42px 0 43px;font-size:18px;color:#fff;-moz-box-sizing border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.row ul li a {display:block;padding:42px 0 43px;font-size:18px;color:#fff}
 .row ul li a:hover {background-color:#224a6f;color:#4edaef;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s}
 .row ul li a span {display:block;margin:0 auto}
 
@@ -138,7 +138,7 @@ SUMMARY :
 
 .story .silwel_list .thmb {position:relative;width:283px;height:236px;border:1px solid #b4b4b4}
 .story .silwel_list .thmb img {width:283px;height:236px}
-.story .silwel_list .txt {height:54px;padding:20px 18px 40px;border:1px solid #dcdcdc;border-top:none;background-color:#fff;font-size:16px;color:#333;line-height:26px}
+.story .silwel_list .txt {padding:20px 18px 25px;border:1px solid #dcdcdc;border-top:none;background-color:#fff;font-size:16px;color:#333;line-height:26px}
 
 .story .silwel_list ul li {left:1244px}
 .story .silwel_list ul li + li {left:1555px}

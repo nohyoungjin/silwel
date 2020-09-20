@@ -43,6 +43,8 @@ $(function() {
 
 		$('#gnb').on('mouseenter', '> .box > ul > li', function() {
 			if ($('body').data('device') != 'mobile') {
+				$('#gnb > .box > ul > li a').removeClass('active');
+				$(this).find('a').addClass('active');
 				$(this).parents('.h_group').stop().animate({'height': '380px'}, 300);
 				$('#gnb .sub_menu').show();
 			}
@@ -50,6 +52,7 @@ $(function() {
 
 		$('.h_group').on('mouseleave', function() {
 			if ($('body').data('device') != 'mobile') {
+				$('#gnb > .box > ul > li a').removeClass('active');
 				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height': '104px'}, 300, function() {
 					$('#gnb > .box > ul > li').siblings().children('.sub_menu').hide();
 				});

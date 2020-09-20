@@ -42,8 +42,6 @@ SUMMARY :
 .checks input[type="radio"]:checked + label:before {border-color: #adb8c0;background:#e9ecee} 
 .checks input[type="radio"]:checked + label:after {content:'';position:absolute;top:8px;left:5px;width:13px;height:13px;background:#99a1a7;border-radius:100%;box-shadow:inset 0px 0px 10px rgba(0,0,0,0.3)}
 
-.checks span {padding:0 5px}
-
 .checks span.w10 {display:inline-block;width:8.18%}
 .checks span.w12 {width:8.18%}
 .checks span.w20 {display:inline-block;width:18%}
@@ -53,7 +51,7 @@ SUMMARY :
 
 .bod_head {margin:50px 0 0}
 .bod_head:after {content:'';display:block;clear:both} 
-.bod_head .total {position:relative;float:left;width:280px;margin:10px 0 0;color:#666;font-size:15px;font-weight:700} 
+.bod_head .total {position:relative;float:left;width:280px;margin:10px 0 0;font-size:15px;color:#666} 
 .bod_head .total em {color:#dc404d}
 .bod_head .search_wrap {float:right;margin:0 auto 20px} 
 
@@ -117,7 +115,7 @@ SUMMARY :
 /* */
 
 .ico.noti {width:44px;height:26px;background-position:-660px -5px}
-.ico.file {width:19px;height:21px;padding:0 8px 0 0;background-position:-710px -5px}
+.ico.file {width:19px;height:21px;margin:0 8px 0 0;background-position:-710px -5px}
 .ico.new {width:17px;height:17px;background-position:-740px -5px}
 
 .no_cont {margin:10px 0 0;padding:80px 0;border-top:1px solid #b2b2b2;border-bottom:1px solid #b2b2b2;font-size:20px;text-align:center}
@@ -133,7 +131,7 @@ SUMMARY :
 .img_list ul li.none , 
 .img_list ul li.none img {width:210px;height:130px}
 .img_list ul li a img {display:block;width:294px;height:180px;margin:0 auto;border:solid 1px #dfdfdf}
-.img_list ul li span {display:block;overflow:hidden;width:200px;height:34px;margin:0 auto;padding-top:10px;font-size:14px;font-weight:700;color:#555;text-align:center;text-overflow:ellipsis;white-space:nowrap}
+.img_list ul li span {display:block;overflow:hidden;width:200px;height:34px;margin:0 auto;padding-top:10px;font-size:15px;color:#555;text-align:center;text-overflow:ellipsis;white-space:nowrap}
 .img_list ul li span:hover,
 .img_list ul li span:focus {color:#0f5185}
 
@@ -150,8 +148,8 @@ SUMMARY :
 .bod_view {overflow:hidden;position:relative;margin:80px 0 0;border-top:2px solid #105187}
 .bod_view > ul {overflow:hidden}
 .bod_view > ul > li {float:left;border-bottom:1px solid #ddd;font-size:15px}
-.bod_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:16px 0;border-right:1px solid #ddd;background-color:#fbfbfb;color:#333;text-align:center;line-height:24px;box-sizing:border-box}
-.bod_view > ul > li > div {float:right;min-height:24px;padding:16px 0 16px 20px;text-align:left;vertical-align:middle;line-height:24px;box-sizing:border-box}
+.bod_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:16px 0;border-right:1px solid #ddd;background-color:#fbfbfb;color:#333;text-align:center;line-height:24px}
+.bod_view > ul > li > div {float:right;min-height:24px;padding:16px 0 16px 20px;text-align:left;vertical-align:middle;line-height:24px}
 
 .bod_view > ul > li.data_item {width:100%}
 .bod_view > ul > li.data_item > strong {width:13.75%}
@@ -184,9 +182,9 @@ SUMMARY :
 .lst_preview ul {overflow:hidden}
 .lst_preview li {float:left;width:100%;border-top:1px solid #ddd}
 .lst_preview li:first-child {border-top:none}
-.lst_preview li > strong {display:block;position:relative;float:left;width:13.8%;min-height:20px;padding:16px 16px 16px 60px;background:#f2f3f3;vertical-align:middle;line-height:150%;box-sizing:border-box}
+.lst_preview li > strong {display:block;position:relative;float:left;width:13.8%;min-height:20px;padding:16px 16px 16px 60px;background:#f2f3f3;vertical-align:middle;line-height:150%}
 .lst_preview li > strong:after {content:"";position:absolute;right:0;top:50%;width:1px;height:12px;margin-top:-6px;border-left:1px solid #d8d8d8}
-.lst_preview li > div {display:block;overflow:hidden;float:right;width:86.2%;min-height:20px;padding:16px 0 16px 20px;vertical-align:middle;font-size:14px;line-height:150%;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal;box-sizing:border-box}
+.lst_preview li > div {display:block;overflow:hidden;float:right;width:86.2%;min-height:20px;padding:16px 0 16px 20px;vertical-align:middle;font-size:14px;line-height:150%;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal}
 
 .lst_preview li.prev > strong {background:#fff url(../img/notify/bul_prevTxt.png) no-repeat 25% 50%}
 .lst_preview li.next > strong {background:#fff url(../img/notify/bul_nextTxt.png) no-repeat 25% 50%}
@@ -258,7 +256,7 @@ SUMMARY :
 .support_view {overflow:hidden;}
 .support_view > ul {overflow:hidden;position:relative;border-top:2px solid #105187}
 .support_view > ul > li {float:left;border-bottom:1px solid #d8d8d8;font-size:15px}
-.support_view > ul > li > strong {position:relative;float:left;padding:13px 0 13px 26px;border-right:1px solid #d8d8d8;color:#333;box-sizing:border-box}
+.support_view > ul > li > strong {position:relative;float:left;padding:13px 0 13px 26px;border-right:1px solid #d8d8d8;color:#333}
 
 .support_view > ul > li.s_num > strong {border-left:1px solid #d8d8d8}
 .support_view > ul > li.s_email > strong {border-left:1px solid #d8d8d8}
@@ -266,7 +264,7 @@ SUMMARY :
 .support_view > ul > li.s_item > strong {border-left:1px solid #d8d8d8}
 
 /* .support_view > ul > li > strong:after {content:"";position:absolute;right:0;top:50%;width:1px;height:12px;margin-top:-6px;border-left:1px solid #d8d8d8} */
-.support_view > ul > li > div {float:right;padding:13px 0 13px 20px;box-sizing:border-box}
+.support_view > ul > li > div {float:right;padding:13px 0 13px 20px}
 .support_view > ul > li > div.checks {padding:20px 0 20px 20px}
 
 .support_view > ul > li.s_way > div.checks {padding:13px 0 13px 20px}
@@ -293,7 +291,7 @@ SUMMARY :
 .support_view li._100 > strong .fl {float:left;width:50%}
 .support_view li._100 > strong .fr {float:right;width:50%}
 .support_view li._100 > strong .fr.ver2 {float:right;width:50%;margin:0}
-.support_view li._100 > strong .fl .ok {position:absolute;left:0;top:0;z-index:1;width:50%;height:212px;padding:130px 0 0;background-color:#fbfbfb;border-right:1px solid #d8d8d8}
+.support_view li._100 > strong .fl .ok {position:absolute;left:0;top:0;z-index:1;width:50%;height:342px;padding:130px 0 0;background-color:#fbfbfb;border-right:1px solid #d8d8d8}
 
 .support_view li._100 > div {float:left;width:85%}
 .support_view li._100 > div span.bank {line-height:40px}
