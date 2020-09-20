@@ -25,7 +25,7 @@ SUMMARY :
 /* path */
 
 .path {border-bottom:1px solid #ddd;background-color:#f0f0f0}
-.path ul {max-width:1280px;margin:0 auto}
+.path ul {max-width:1200px;margin:0 auto}
 .path ul:after {display:block;clear:both;content:''}
 .path ul li:first-child {width:50px;background:url(../img/common/ico_home.png) 50% 50% no-repeat}
 .path ul li:first-child a {display:inline-block;position:absolute;top:50%;left:50%;width:17px;height:15px;margin:-7px 0 0 -8px;font-size:0}
@@ -317,7 +317,7 @@ SUMMARY :
 
 /* 사이트맵 */
 
-.sitemap_wrap {width:1280px;margin:0 auto;padding:4% 0;border:1px solid #eee}
+.sitemap_wrap {width:1200px;margin:0 auto;padding:4% 0;border:1px solid #eee}
 .blind {overflow:hidden;position:absolute !important;width:1px;height:1px;clip:rect(1px,1px,1px,1px)}
 
 .sitemap_inner {overflow:hidden;position:relative}
@@ -327,11 +327,12 @@ SUMMARY :
 .sitemap_inner .line3 {left:60%}
 .sitemap_inner .line4 {left:80%}
 
-.sitemap_set {display:inline-block;width:19.4%;padding:0 0 0 3.6%;vertical-align:top}
+.sitemap_set {display:inline-block;width:19.8%;padding:0 0 0 3.6%;vertical-align:top}
 .sitemap_set h2 {height:75px;font-weight:normal}
 .sitemap_set h2 a {font-size:24px}
 .sitemap_set ul > li {margin-bottom:7%}
 .sitemap_set ul > li > a {font-size:16px;color:#555}
+.sitemap_set ul > li > a:hover {text-decoration:underline}
 
 /* */
 
@@ -374,7 +375,7 @@ SUMMARY :
 	.sitemap_inner .line3, 
 	.sitemap_inner .line4 {display:none}
 
-	.sitemap_set {width:32.3%}
+	.sitemap_set {width:33.1%}
 	.sitemap_set.set4, 
 	.sitemap_set.set5 {padding-top:20px}
 
