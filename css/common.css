@@ -84,15 +84,15 @@ html, body {width:100%;height:100%}
 
 /* */
 
-#header .h_group {overflow:visible;position:absolute;top:35px;left:0px;z-index:100;width:100%;height:104px;border-bottom:1px solid #ddd;background-color:#fff}
-#header .h_group:before {content:"";position:absolute;top:103px;left:0px;width:100%;height:1px;background-color:#ddd}
-#header .h_group > div {max-width:1200px;margin:0 auto}
+#header .h_group {overflow:visible;position:absolute;z-index:100;width:100%;height:104px;border-bottom:1px solid #ddd;background-color:#fff}
+#header .h_group:before {content:"";position:absolute;top:103px;left:0;width:100%;height:1px;background-color:#ddd}
+#header .h_group > div {max-width:1200px;height:104px;margin:0 auto}
 #header .h_group > div:after {display:block;clear:both;content:''}
 #header .h_group > div h1 {overflow:hidden;float:left;padding:28px 0 0}
 
 #gnb {float:right;padding:28px 0 0}
 #gnb .btn_menu {display:none;overflow:hidden;position:absolute;top:48px;right:20px;width:24px;height:17px;background:url(../img/common/btn_menu.png) no-repeat;text-indent:-999em}
-#gnb .btn_close {display:none;overflow:hidden;position:absolute;top:10px;right:23px;width:16px;height:16px;background:url(../img/common/btn_close.png) no-repeat;text-indent:-999em}
+#gnb .btn_close {display:none;overflow:hidden;position:absolute;top:11px;right:23px;width:16px;height:16px;background:url(../img/common/btn_close.png) no-repeat;text-indent:-999em}
 
 #gnb > .box > ul {/* overflow:hidden */}
 #gnb > .box > ul:after {display:block;clear:both;content:''}
@@ -190,11 +190,22 @@ html, body {width:100%;height:100%}
 
 @media (max-width: 1024px) {
 
+	/* layout */
+
+	#wrap {padding-top:108px}
+
 	/* header */
 
-	#header .h_group > div {width:auto;padding:0 10px}
+	#header .h_group {height:74px !important;border-bottom:0}
+	#header .h_group:before {top:73px}
+
+	#header .h_group > div h1 {padding:15px 0 0}
+
+	#header .h_group > div {width:auto;height:74px;padding:0 10px}
 	#gnb .btn_menu, 
 	#gnb .btn_close {display:block}
+
+	#gnb .btn_menu {top:33px}
 
 	#gnb > .box {position:absolute;top:-35px;right:-80%;z-index:20;width:80%;padding-bottom:2px}
 	#gnb > .box > ul {width:100%;padding-top:35px}

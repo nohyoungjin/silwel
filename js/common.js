@@ -508,7 +508,7 @@ $.fn.gnbSize = function() {
 		$('#gnb > div > ul > li').removeClass('current');
 		$('#gnb .sub_menu').hide();
 		$('#gnb .sub_menu ul').show();
-		$('#gnb .sub_menu > div .inner > ul').show();
+		$('#gnb .sub_menu > div > ul').show();
 		$('#gnb > .dim').remove();
 
 	}
