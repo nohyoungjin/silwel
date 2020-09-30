@@ -44,7 +44,7 @@ body {font-family:'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', '돋움', 'D
 
 /* ico */
 
-.ico {display:inline-block;background-image:url(../img/common/sp_common.png);background-repeat:no-repeat;vertical-align:middle;text-indent:-99999px}
+.ico {display:inline-block;background-image:url(../img/common/sp_common.png);background-repeat:no-repeat;vertical-align:middle}
 
 /* width */
 
@@ -68,7 +68,7 @@ body {font-family:'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', '돋움', 'D
 #header .h_group > div h1 {overflow:hidden;float:left;padding:28px 0 0}
 
 #gnb {float:right;padding:28px 0 0}
-#gnb .btn_menu {display:none;overflow:hidden;position:absolute;top:48px;right:20px;width:24px;height:17px;background:url(../img/common/btn_menu.png) no-repeat;text-indent:-999em}
+#gnb .btn_menu {display:none;overflow:hidden;position:absolute;top:48px;right:17px;width:24px;height:17px;background:url(../img/common/btn_menu.png) no-repeat;text-indent:-999em}
 #gnb .btn_close {display:none;overflow:hidden;position:absolute;top:11px;right:23px;width:16px;height:16px;background:url(../img/common/btn_close.png) no-repeat;text-indent:-999em}
 
 #gnb > .box > ul {/* overflow:hidden */}
@@ -80,13 +80,13 @@ body {font-family:'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', '돋움', 'D
 #gnb > .box > ul > li > a:hover span,
 #gnb > .box > ul > li > a:focus span {color:#125187}
 
-#gnb > .box > ul > li > a::before {display:none;position:absolute;z-index:2;bottom:-17px;left:50%;transform:translateX(-50%);width:calc(100% - 50px);height:2px;background-color:#125187;content:""}
+#gnb > .box > ul > li > a::before {display:none;position:absolute;z-index:2;bottom:-16px;left:50%;transform:translateX(-50%);width:calc(100% - 50px);height:2px;background-color:#125187;content:""}
 
 #gnb > .box > ul > li > a:hover::before, 
 #gnb > .box > ul > li > a:focus::before, 
 #gnb > .box > ul > li > a.active::before {display:block}
 
-#gnb > .box > ul > li > .sub_menu {display:none;position:absolute;top:80px;left:0px;padding:22px 0}
+#gnb > .box > ul > li > .sub_menu {display:none;position:absolute;top:78px;left:0px;padding:22px 0}
 
 #gnb > .box > ul > li > .sub_menu > ul > li {width:100px;margin:0 0 5px 32px}
 #gnb > .box > ul > li > .sub_menu > ul > li > a {display:inline-block;color:#333;font-size:15px;line-height:28px;letter-spacing: -0.1px}
@@ -106,7 +106,7 @@ body {font-family:'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', '돋움', 'D
 .f_wrap .info ul li:first-child {padding:0 8px 0 0}
 .f_wrap .info ul.add li {padding:0 6px;font-size:12px}
 .f_wrap .info ul.add li:first-child {padding:0 6px 0 0}
-.f_wrap .info ul li .bar {position:absolute;top:50%;right:-2px;height:7px;width:1px;margin-top:-3px;background-color:#757271}
+.f_wrap .info ul li .bar {position:absolute;top:50%;right:-2px;height:7px;width:1px;margin-top:-2px;background-color:#757271}
 .f_wrap .info ul li a {color:#8c8c8c}
 .f_wrap .info p {font-size:12px}
 

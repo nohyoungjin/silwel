@@ -182,9 +182,9 @@ SUMMARY :
 .lst_preview ul {overflow:hidden}
 .lst_preview li {float:left;width:100%;border-top:1px solid #ddd}
 .lst_preview li:first-child {border-top:none}
-.lst_preview li > strong {display:block;position:relative;float:left;width:13.8%;min-height:20px;padding:16px 16px 16px 60px;background:#f2f3f3;vertical-align:middle;line-height:150%}
+.lst_preview li > strong {display:block;position:relative;float:left;width:12.8%;min-height:20px;padding:16px 16px 16px 60px;background:#f2f3f3;vertical-align:middle;line-height:150%}
 .lst_preview li > strong:after {content:"";position:absolute;right:0;top:50%;width:1px;height:12px;margin-top:-6px;border-left:1px solid #d8d8d8}
-.lst_preview li > div {display:block;overflow:hidden;float:right;width:86.2%;min-height:20px;padding:16px 0 16px 20px;vertical-align:middle;font-size:14px;line-height:150%;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal}
+.lst_preview li > div {display:block;overflow:hidden;float:right;width:87.2%;min-height:20px;padding:16px 0 16px 20px;vertical-align:middle;font-size:14px;line-height:150%;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal}
 
 .lst_preview li.prev > strong {background:#fff url(../img/notify/bul_prevTxt.png) no-repeat 25% 50%}
 .lst_preview li.next > strong {background:#fff url(../img/notify/bul_nextTxt.png) no-repeat 25% 50%}
@@ -239,8 +239,8 @@ SUMMARY :
 .bod_write .table tr textarea {height:150px;padding:10px 10px;border:1px solid #ccc}
 
 .bod_write .table tr.fileTr td > input {float:left;width:500px}
-.bod_write .table tr.fileTr td img {padding-right:5px}
-.bod_write .table tr.fileTr .file_input_box {overflow:hidden;position:relative;float:left;height:38px}
+.bod_write .table tr.fileTr td img {display:inline-block;margin-top:-1px}
+.bod_write .table tr.fileTr .file_input_box {display:inline;overflow:hidden;position:relative}
 .bod_write .table tr.fileTr .input_file_hidden {position:absolute;width:96px;height:30px;left:-6px;bottom:0px;font-size:29px;cursor:pointer;opacity:0;filter:alpha(opacity=0);-ms-filter:alpha(opacity=0)}
 
 /* donation */
@@ -404,8 +404,8 @@ SUMMARY :
 	/* board prev, next */
 
 	.lst_preview {margin-bottom:20px}
-	.lst_preview li > strong {width:31%;padding:16px 16px 16px 30px}
-	.lst_preview li > div {width:68%}
+	.lst_preview li > strong {width:20%;padding:16px 16px 16px 30px}
+	.lst_preview li > div {width:80%}
 
 	.lst_preview li.prev > strong {background:#fff url(../img/notify/bul_prevTxt.png) no-repeat 5% 50%}
 	.lst_preview li.next > strong {background:#fff url(../img/notify/bul_nextTxt.png) no-repeat 5% 50%}
@@ -480,6 +480,10 @@ SUMMARY :
 }
 
 @media (max-width: 600px) {
+
+	/* newsfeed list */
+
+	.img_list.news ul li {float:none;width:100%}
 
 	/* board write */
 
