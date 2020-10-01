@@ -73,8 +73,13 @@ a {
 	text-decoration: none;
 }
 
-input, select, textarea, button {
-	vertical-align: middle;
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: middle;
 }
 
 button {

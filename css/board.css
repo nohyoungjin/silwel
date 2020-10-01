@@ -296,7 +296,7 @@ SUMMARY :
 .support_view li._100 > div {float:left;width:85%}
 .support_view li._100 > div span.bank {line-height:40px}
 
-.support_view li > div input[type="text"] {padding:9px 5px;border:1px solid #ccc}
+.support_view li > div input[type="text"] {padding:8px 5px;border:1px solid #ccc}
 .support_view li._50 > div input[type="text"] {width:90%}
 .support_view li._100 > div input[type="text"] {width:95.9%}
 
