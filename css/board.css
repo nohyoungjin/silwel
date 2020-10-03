@@ -16,7 +16,7 @@ SUMMARY :
 
 /* button */
 
-.bn_wrap {padding:20px 0 40px;text-align:center}
+.bn_wrap {padding:30px 0 40px;text-align:center}
 .bn_wrap:after {content:'';display:block;clear:both} 
 
 .bn_wrap > button {width:80px;height:32px;margin:0 3px;border:1px solid #5b5b5b;background-color:#686868;font-size:14px;color:#fff;line-height:1.0}
@@ -222,26 +222,28 @@ SUMMARY :
 /* board write */
 
 .bod_write {position:relative;padding:80px 0 0}
-.bod_write .table {table-layout:fixed;width:100%;border-top:2px solid #105187}
+.bod_write .table {border-top:2px solid #105187}
 .bod_write .table tr {border-bottom:1px solid #ddd}
-.bod_write .table tr th {height:53px;border-right:1px solid #ddd;background-color:#fbfbfb;font-size:15px;font-weight:700;color:#333;text-align:center;line-height:53px}
+.bod_write .table tr th {border-right:1px solid #ddd;background-color:#fbfbfb;font-size:15px;font-weight:500;color:#333;text-align:center}
 
 .bod_write .table tr td {padding:12px 10px}
 .bod_write .table tr td span.pass {position:relative;top:1px;left:10px;font-size:15px}
 
+.bod_write .table tr td label {position:relative;top:1px;font-size:15px}
 .bod_write .table tr td input {height:38px;padding:0px 5px;border:1px solid #ddd}
 
 .bod_write .table tr.securityTr td {position:relative}
-.bod_write .table tr.securityTr td > img {position:absolute;top:20px;left:10px}
-.bod_write .table tr.securityTr td button {height:33px;margin:2px 0 0 90px}
-.bod_write .table tr.securityTr input[type="text"] {position:relative;width:156px;height:38px;margin:0 0 0 5px}
+.bod_write .table tr.securityTr td span.thumb {display:inline-block;height:23px;vertical-align:middle}
+.bod_write .table tr.securityTr td button {width:85px;height:30px;margin:0 0 0 5px}
+.bod_write .table tr.securityTr input[type="text"] {position:relative;width:156px;margin:0 0 0 5px}
 
 .bod_write .table tr textarea {height:150px;padding:10px 10px;border:1px solid #ccc}
 
-.bod_write .table tr.fileTr td > input {float:left;width:500px}
-.bod_write .table tr.fileTr td img {display:inline-block;margin-top:-1px}
-.bod_write .table tr.fileTr .file_input_box {display:inline;overflow:hidden;position:relative}
-.bod_write .table tr.fileTr .input_file_hidden {position:absolute;width:96px;height:30px;left:-6px;bottom:0px;font-size:29px;cursor:pointer;opacity:0;filter:alpha(opacity=0);-ms-filter:alpha(opacity=0)}
+.bod_write .table tr.fileTr td > input {display:inline-block;width:500px}
+.bod_write .table tr.fileTr td img {display:inline-block}
+.bod_write .table tr.fileTr .file_input_box {display:inline;overflow:hidden;position:relative;margin:0 0 0 4px}
+.bod_write .table tr.fileTr .file_input_btn {height:38px}
+.bod_write .table tr.fileTr .input_file_hidden {position:absolute;width:92px;height:38px;left:0;top:-8px;margin:0;padding:0;cursor:pointer;opacity:0;filter:alpha(opacity=0);-ms-filter:alpha(opacity=0)}
 
 /* donation */
 
@@ -412,11 +414,9 @@ SUMMARY :
 
 	/* board write */
 
-	.bod_write .table tr th {height:auto}
 	.bod_write .table tr td span.pass {display:block;top:5px;left:0;font-size:12px}
 
-	.bod_write .table tr.securityTr td button {margin:35px 0 0 0}
-	.bod_write .table tr.securityTr input[type="text"] {width:13%;margin:38px 0 0 5px}
+	.bod_write .table tr.securityTr input[type="text"] {display:block;width:20%;margin:5px 0 0}
 
 	/* donation */
 	
@@ -489,12 +489,12 @@ SUMMARY :
 
 	.bod_write {width:100%;padding-left:0}
 	.bod_write .table {width:100%}
-	.bod_write .table table tr th {width:70px}
-	.bod_write .table tr td input[type="text"] {width:26%}
-	.bod_write .table tr td input[type='password'] {width:13%}
+	.bod_write .table tr th {width:130px}
+	.bod_write .table tr td input[type="text"] {width:100%}
+	.bod_write .table tr td input[type='password'] {width:20%}
 	.bod_write .table tr.fileTr td input[type='text'] {width:20%}
-	.bod_write .table tr td #fileName {width:12%}
-	.bod_write .table tr.contentTr textarea {width:25%}
+	.bod_write .table tr td #fileName {width:50%}
+	.bod_write .table tr.contentTr textarea {width:100%}
 
 }
 

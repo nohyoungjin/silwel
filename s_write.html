@@ -56,16 +56,13 @@
 
 				<!-- snb -->
 
-				<div class="snb">
-					<div class="snb_list">
-						<h2 class="snb_tit"><span>요양원소개</span></h2>
-						<ul class="snb_nav">
-							<li class="on"><a href="#">공지사항</a></li>
-							<li><a href="#">실로암소식지</a></li>
-							<li><a href="#">포토갤러리</a></li>
-						</ul>
-					</div>
-				</div>
+				<div id="snb" class="snb"></div>
+
+				<script>
+
+					$(function() { snb('notify', 'snb', 1); });
+
+				</script>
 
 				<!-- //snb -->
 
@@ -76,7 +73,7 @@
 
 						<div class="bod_write">
 							
-							<form name="" method="post">
+							<form method="post" name="">
 
 								<table class="table">
 									<caption>자유게시판 글쓰기</caption>
@@ -86,37 +83,44 @@
 									</colgroup>
 									<tbody>
 										<tr>
-											<th scope="row"><label for="title">제목</label></th>
+											<th scope="row">제목</th>
 											<td><input type="text" id="title" class="w100" title="제목"></td>
 										</tr>
 										<tr>
-											<th scope="row"><label for="office_name">작성자</label></th>
+											<th scope="row">작성자</th>
 											<td><input type="text" id="office_name" class="w40" title="작성자"></td>
 										</tr>
 										<tr>
-											<th scope="row"><label for="password">비밀번호</label></th>
+											<th scope="row">비밀번호</th>
 											<td><input type="password" id="password" title="비밀번호"><span class="pass">숫자 4글자로 구성 (글 확인 및 수정, 삭제 시 필요)</span></td>
 										</tr>
 										<tr class="securityTr">
-											<th scope="row"><label for="security">보안문자</label></th>
-											<td><img src="./img/notify/zmSpamFree.png" id="zsfImg" alt="보안문자를 공백없이 입력해주세요"><button type="button"><img src="./img/notify/icon_05.png" alt="새로고침"></button><input type="text" id="security" title="보안문자"></td>
+											<th scope="row">보안문자</th>
+											<td>
+												<span class="thumb"><img src="./img/notify/zmSpamFree.png" id="zsfImg" alt="보안문자"></span>
+												<button type="button"><img src="./img/notify/icon_05.png" alt="새로고침"></button>
+												<input type="text" id="security" title="보안문자를 공백없이 입력해주세요">
+											</td>
 										</tr>
 										<tr>
-											<th scope="row"><label for="secret_flag">비밀글</label></th>
-											<td><input type="checkbox" name="secret_flag" id="secret_flag"><span class="pass">비밀글 체크시 본인만 내용을 볼 수 있습니다.</span></td>
+											<th scope="row">비밀글</th>
+											<td>
+												<input type="checkbox" name="secret_flag" id="secret_flag">
+												<label for="secret_flag">비밀글 체크시 본인만 내용을 볼 수 있습니다.</lebel>
+											</td>
 										</tr>
 										<tr class="contentTr">
-											<th scope="row"><label for="article_cont">내용</label></th>
+											<th scope="row">내용</th>
 											<td><textarea id="article_cont" class="w100" title="게시판내용"></textarea></td>
 										</tr>
 										<tr class="fileTr">
-											<th scope="row"><label for="certificate">파일첨부</label></th>
+											<th scope="row">파일첨부</th>
 											<td>
-												<div class="file_input_box">
-													<button class="file_input_btn" alt="file open"><img src="img/notify/icon_06.png" alt="파일찾기"></button>
-													<input type="file" name="fileHidden" id="certificate" class="input_file_hidden" onchange="javascript:document.getElementById('fileName').value = this.value">
-												</div>
 												<input type="text" id="fileName" class="fileName" readonly>
+												<div class="file_input_box">
+													<input type="file" name="fileHidden" id="certificate" class="input_file_hidden" onchange="javascript:document.getElementById('fileName').value = this.value">
+													<button class="file_input_btn" alt="file open"><img src="img/notify/icon_06.png" alt="파일찾기"></button>
+												</div>
 											</td>
 										</tr>
 									</tbody>

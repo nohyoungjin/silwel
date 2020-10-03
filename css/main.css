@@ -49,8 +49,8 @@ SUMMARY :
 
 /* quick */
 
-.row {position:relative;z-index:51;width:100%;height:197px;margin-top:-197px;background-color:#125187;opacity:0.9}
-.row {
+.widget {position:relative;z-index:51;width:100%;height:197px;margin-top:-197px;background-color:#125187;opacity:0.9}
+.widget {
 
   /* Theoretically for IE 8 & 9 (more valid) */
   /* ...but not required as filter works too */
@@ -65,18 +65,18 @@ SUMMARY :
   opacity: 0.9;
 
 }
-.row:after {content:'.';display:block;visibility:hidden;clear:both;height:0;line-height:0}
+.widget:after {content:'.';display:block;visibility:hidden;clear:both;height:0;line-height:0}
 
-.row ul {max-width:1200px;margin:0 auto}
-.row ul:after {display:block;clear:both;content:''}
-.row ul li {position:relative;float:left;width:16.6%;height:197px;text-align:center}
+.widget ul {max-width:1200px;margin:0 auto}
+.widget ul:after {display:block;clear:both;content:''}
+.widget ul li {position:relative;float:left;width:16.6%;height:197px;text-align:center}
 
-.row ul li:first-child:after {display:none}
-.row ul li:after {content:'';display:block;position:absolute;top:50%;left:0;width:2px;height:97px;margin:-48.5px 0 0 -1px;background:url(../img/main/bar.png) 100% 50% no-repeat}
+.widget ul li:first-child:after {display:none}
+.widget ul li:after {content:'';display:block;position:absolute;top:50%;left:0;width:2px;height:97px;margin:-48.5px 0 0 -1px;background:url(../img/main/bar.png) 100% 50% no-repeat}
 
-.row ul li a {display:block;padding:42px 0 43px;font-size:18px;color:#fff;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s}
-.row ul li a:hover {background-color:#224a6f;color:#4edaef}
-.row ul li a span {display:block;margin:0 auto}
+.widget ul li a {display:block;padding:42px 0 43px;font-size:18px;color:#fff;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s}
+.widget ul li a:hover {background-color:#224a6f;color:#4edaef}
+.widget ul li a span {display:block;margin:0 auto}
 
 /* */
 
@@ -158,18 +158,18 @@ SUMMARY :
 
 	/* quick */
 
-	.row {width:100%;height:auto;margin:0;background:url(../img/common/short_bg.png) 0 0 repeat}
+	.widget {width:100%;height:auto;margin:0;background:url(../img/common/short_bg.png) 0 0 repeat}
 
-	.row ul {width:100%}
-	.row ul li {width:33.3%;height:150px;border-left:0;border-bottom:1px solid #4679a8}
-	.row ul li:after {display:none}
+	.widget ul {width:100%}
+	.widget ul li {width:33.3%;height:150px;border-left:0;border-bottom:1px solid #4679a8}
+	.widget ul li:after {display:none}
 
-	.row ul li + li {border-left:1px solid #4679a8}
-	.row ul li + li + li {border-left:1px solid #4679a8}
-	.row ul li + li + li + li {border-left:0;border-bottom:0}
-	.row ul li + li + li + li + li {border-left:1px solid #4679a8}
+	.widget ul li + li {border-left:1px solid #4679a8}
+	.widget ul li + li + li {border-left:1px solid #4679a8}
+	.widget ul li + li + li + li {border-left:0;border-bottom:0}
+	.widget ul li + li + li + li + li {border-left:1px solid #4679a8}
 
-	.row ul li a {padding:21px 0;font-size:15px}
+	.widget ul li a {padding:21px 0;font-size:15px}
 
 	/* latest */
 
@@ -194,13 +194,13 @@ SUMMARY :
 	.message {display:table;height:100%;margin:0 auto;text-align:center}
 	.message .inner {display:table-cell;vertical-align:middle}
 
-	.message .inner p.tit {margin:-170px 0 0;font-size:24px;line-height:30px}  
+	.message .inner p.tit {margin:-180px 0 0;font-size:24px;line-height:30px}  
 	.message .inner p + p {font-size:20px;color:#757677}
 
 	.visual .slick-dots {bottom:340px}
 
 	/* quick */
 
-	.row {margin:-300px 0 0}
+	.widget {margin:-300px 0 0}
 
 }
