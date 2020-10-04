@@ -38,9 +38,9 @@ SUMMARY :
 .slick-prev {left:0}
 .slick-next {right:0} */
 
-.visual .slick-dots {position:absolute;left:50%;bottom:235px;margin-left:-52px;z-index:1000}
+.visual .slick-dots {position:absolute;left:50%;bottom:235px;z-index:1000;margin-left:-48px}
 .visual .slick-dots li {float:left}
-.visual .slick-dots span {display:block;overflow:hidden;width:12px;height:12px;margin:0 14px 0 0;background:#c9c9c8;text-indent:-999px;cursor:pointer;border-radius:6px}
+.visual .slick-dots span {display:block;overflow:hidden;width:12px;height:12px;margin:0 12px 0 0;background:#c9c9c8;text-indent:-999px;cursor:pointer;border-radius:6px}
 .visual .slick-dots li.slick-active span {background:#506c87}
 
 /* .visual_btn {position:absolute;top:50%;left:50%;z-index:10}
