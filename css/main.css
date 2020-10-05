@@ -32,7 +32,7 @@ SUMMARY :
 .message .inner {display:table-cell;vertical-align:middle}
 
 .message .inner p.tit {margin:-140px 0 5px;font-size:46px;font-weight:500;line-height:40px;letter-spacing:-0.5px}  
-.message .inner p + p {font-size:38px;font-weight:300;color:#757677;letter-spacing:-0.5px}
+.message .inner p + p {font-size:38px;font-weight:300;color:#555;letter-spacing:-0.5px}
 
 /* .slick-arrow {display:block;overflow:hidden;position:absolute;top:40%;z-index:1;width:70px;height:70px;background-color:rgba(255, 255, 255, .2);background-repeat:no-repeat;background-position:50%;text-indent:-9999px;cursor:pointer}
 .slick-prev {left:0}
@@ -186,16 +186,16 @@ SUMMARY :
 	.visual {height:560px}
 	.visual .slick-track div {height:560px}
 
-	.visual div.d_01,
-	.visual div.d_02,
-	.visual div.d_03,
-	.visual div.d_04 {background:url(../img/main/banner_mobile.jpg) repeat 50% 0}
+	.visual div.d_01 {background:url(../img/main/banner_mo_01.jpg) repeat 50% 0}
+	.visual div.d_02 {background:url(../img/main/banner_mo_02.jpg) repeat 50% 0}
+	.visual div.d_03 {background:url(../img/main/banner_mo_01.jpg) repeat 50% 0}
+	.visual div.d_04 {background:url(../img/main/banner_mo_02.jpg) repeat 50% 0}
 
 	.message {display:table;height:100%;margin:0 auto;text-align:center}
 	.message .inner {display:table-cell;vertical-align:middle}
 
 	.message .inner p.tit {margin:-180px 0 0;font-size:24px;line-height:30px}  
-	.message .inner p + p {font-size:20px;color:#757677}
+	.message .inner p + p {font-size:18px}
 
 	.visual .slick-dots {bottom:340px}
 

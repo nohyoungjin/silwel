@@ -416,6 +416,9 @@ SUMMARY :
 
 	.bod_write .table tr td span.pass {display:block;top:5px;left:0;font-size:12px}
 
+	.bod_write .table tr td input[type="checkbox"] {height:16px}
+	.bod_write .table tr td label {display:block;font-size:12px}
+
 	.bod_write .table tr.securityTr input[type="text"] {display:block;width:20%;margin:5px 0 0}
 
 	/* donation */
