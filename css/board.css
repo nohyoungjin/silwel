@@ -56,7 +56,7 @@ SUMMARY :
 .bod_head .search_wrap {float:right;margin:0 auto 20px} 
 
 .bod_head .search_type:after {content:'';display:block;clear:both} 
-.bod_head .select {float:left;width:90px;height:34px;border:1px solid #ccc;color:#555} 
+.bod_head .select {float:left;width:90px;height:34px;border:1px solid #ccc;background-color:#fff;color:#555} 
 .bod_head .search_input {float:left;width:180px;height:34px;margin:0px 5px;padding:0px 5px;border:1px solid #ccc;color:#555} 
 .bod_head .btn_search {float:left;width:80px;height:34px;background-color:#686868;border:1px solid #686868;color:#fff} 
 

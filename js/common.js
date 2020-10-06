@@ -488,7 +488,7 @@ $.fn.gnbSize = function() {
 		$('body').css('overflow','visible');
 		$('#gnb > .box').css({
 			'height'     : deviceHeight,
-			'background' : '#424242'
+			'background' : '#fff'
 		});
 		$('#gnb .sub_menu').show();
 		$('#gnb .sub_menu ul').hide();
