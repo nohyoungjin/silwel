@@ -41,8 +41,12 @@ $(function() {
 
 	function navi() {
 
-		$('#gnb').on('mouseenter', '> .box > ul > li', function() {
-			if ($('body').data('device') != 'mobile') {
+		var $body = $('body'),
+			$h_group = $('.h_group'),
+			$gnb = $('#gnb');
+
+		$gnb.on('mouseenter', '> .box > ul > li', function() {
+			if ($body.data('device') != 'mobile') {
 				$('#gnb > .box > ul > li a').removeClass('active');
 				$(this).find('a').addClass('active');
 				$(this).parents('.h_group').stop().animate({'height': '380px'}, 300);
@@ -50,8 +54,8 @@ $(function() {
 			}
 		});
 
-		$('.h_group').on('mouseleave', function() {
-			if ($('body').data('device') != 'mobile') {
+		$h_group.on('mouseleave', function() {
+			if ($body.data('device') != 'mobile') {
 				$('#gnb > .box > ul > li a').removeClass('active');
 				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height': '104px'}, 300, function() {
 					$('#gnb > .box > ul > li').siblings().children('.sub_menu').hide();
@@ -61,17 +65,17 @@ $(function() {
 
 		// gnb keyboard accessibility
 		
-		$('#gnb').on('focusin', '> .box > ul > li > a', function() {
-			if ($('body').data('device') != 'mobile') {
-				if ($('.h_group').hasClass('on') == false) {
+		$gnb.on('focusin', '> .box > ul > li > a', function() {
+			if ($body.data('device') != 'mobile') {
+				if ($h_group.hasClass('on') == false) {
 					$(this).parents('.h_group').stop().animate({'height': '380px'}, 300);
 					$('#gnb .sub_menu').show();
 				}
 			}
 		}); 
 
-		$(document).on('focus', '.h_group h1 a, .short-cut ul li a, .btn_link', function() {
-			if ($('body').data('device') != 'mobile') {
+		$(document).on('focus', '.h_group h1 a, .widget ul li a', function() {
+			if ($body.data('device') != 'mobile') {
 				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height': '104px'}, 300, function() {
 					$('#gnb > .box > ul > li').siblings().children('.sub_menu').hide();
 				});
@@ -282,11 +286,11 @@ $(function() {
 
 	function family_site_mobile() {
 
-		var blog = 0; // 초기값
+		var site = 0; // 초기값
 
 		$('.f_selector').on('click', function() {
 
-			if (blog == 0) {
+			if (site == 0) {
 
 				$(this).parent().addClass('on');
 				$(this).next().stop().slideDown(300, function() {
@@ -298,7 +302,7 @@ $(function() {
 					alt: '열림'
 				});
 				
-				blog = 1;
+				site = 1;
 
 			} else {
 
@@ -309,7 +313,7 @@ $(function() {
 					alt: '닫힘'
 				});
 				
-				blog = 0;
+				site = 0;
 
 			}
 
