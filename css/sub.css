@@ -103,7 +103,7 @@ SUMMARY :
 .faq_info li.on .faq_list .fl {color:#fefeff}
 .faq_info li.on .faq_list .fl a {color:#c4d9ea}
 
-.faq_detail {display:none;position:relative;padding:20px;border:1px solid #ccc;border-width:1px 0 0 0;background-color:#fff;border-radius:10px;font-size:14px;border-top-left-radius:0;border-top-right-radius:0;line-height:22px}
+.faq_detail {display:none;position:relative;padding:20px;border:1px solid #ccc;border-width:1px 0 0 0;background-color:#fff;font-size:14px;border-radius:10px;border-top-left-radius:0;border-top-right-radius:0;line-height:22px}
 .faq_detail ul {width:100%;margin:20px 0 0}
 .faq_detail ul:after {display:block;clear:both;content:''}
 .faq_detail ul li {float:left;width:25%;border:0;text-align:center}
