@@ -185,7 +185,7 @@ $(function() {
 					arr_posX.push($(this).position().left);
 				});
 
-				next.on('click', function(){
+				next.on('click', function() {
 					if (clickChk) {
 						var obj = arr.shift();
 						arr.push(obj);
