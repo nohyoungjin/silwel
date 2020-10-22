@@ -28,7 +28,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 .page_wrap:after {display:block;clear:both;content:''}
 
 .snb {float:left;width:205px;min-height:300px;_height:300px}
-.conts {float:left;width:994px;padding:40px 0 120px 40px;border-left:1px solid #ddd}
+.conts {float:left;width:994px;padding:60px 0 120px 40px;border-left:1px solid #ddd}
 
 /* skip */
 

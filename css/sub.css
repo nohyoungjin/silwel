@@ -55,14 +55,14 @@ SUMMARY :
 /* conts */
 
 .conts {position:relative}
-.conts h3 {padding:0 0 20px;border-bottom:2px solid #d9d9d9;font-size:46px;font-weight:500}
-.conts h3:before {content:"";position:absolute;top:42px;right:90px;width:262px;height:86px;background:url(../img/common/bg_01.png) 0 0 no-repeat}
+.conts h3 {position:relative;padding:0 0 20px;border-bottom:2px solid #d9d9d9;font-size:46px;font-weight:500}
+.conts h3:before {content:"";position:absolute;bottom:0;right:90px;width:262px;height:86px;background:url(../img/common/bg_01.png) 0 0 no-repeat}
 
-.conts h3.ci02:before {top:-33px;right:90px;width:207px;height:134px;background:url(../img/common/bg_02.png) 0 0 no-repeat}
-.conts h3.ci03:before {top:0;right:100px;width:190px;height:101px;background:url(../img/common/bg_03.png) 0 0 no-repeat}
-.conts h3.ci04:before {top:2px;right:100px;width:185px;height:99px;background:url(../img/common/bg_04.png) 0 0 no-repeat}
-.conts h3.ci05:before {top:5px;right:100px;width:173px;height:96px;background:url(../img/common/bg_05.png) 0 0 no-repeat}
-.conts h3.ci06:before {top:-3px;right:100px;width:169px;height:104px;background:url(../img/common/bg_06.png) 0 0 no-repeat}
+.conts h3.ci02:before {right:90px;width:207px;height:134px;background:url(../img/common/bg_02.png) 0 0 no-repeat}
+.conts h3.ci03:before {right:100px;width:190px;height:101px;background:url(../img/common/bg_03.png) 0 0 no-repeat}
+.conts h3.ci04:before {right:100px;width:185px;height:99px;background:url(../img/common/bg_04.png) 0 0 no-repeat}
+.conts h3.ci05:before {right:100px;width:173px;height:96px;background:url(../img/common/bg_05.png) 0 0 no-repeat}
+.conts h3.ci06:before {right:100px;width:169px;height:104px;background:url(../img/common/bg_06.png) 0 0 no-repeat}
 
 /* 인사말 */
 
