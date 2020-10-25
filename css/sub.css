@@ -64,6 +64,8 @@ SUMMARY :
 .conts h3.ci05:before {right:100px;width:173px;height:96px;background:url(../img/common/bg_05.png) 0 0 no-repeat}
 .conts h3.ci06:before {right:100px;width:169px;height:104px;background:url(../img/common/bg_06.png) 0 0 no-repeat}
 
+.conts img {max-width:100%}
+
 /* 인사말 */
 
 .invite {overflow:hidden;position:relative;margin:30px 0 40px;padding:14px 22px 0}
@@ -77,7 +79,7 @@ SUMMARY :
 
 /* 법인소개 */
 
-.our {padding:30px 0 0;font-size:24px;line-height:30px}
+.our {padding:30px 0 0;font-size:24px;line-height:29px;letter-spacing:-0.5px}
 .organ {padding:30px 0;text-align:center}
 
 .corporation h4 {position:relative;padding:20px 0 0 10px;font-size:16px}
@@ -392,7 +394,6 @@ SUMMARY :
 
 	/* 법인소개 */
 
-	.responsive_image {width:100%;height:auto} 
 	.faq_detail ul li {float:left;width:50%;border:0;text-align:center}
 
 	/* 미션과비전 */

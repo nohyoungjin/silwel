@@ -60,7 +60,8 @@ SUMMARY :
 
 .widget ul li a {display:block;padding:42px 0 43px;font-size:18px;color:#fff;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s}
 .widget ul li a:hover {background-color:#224a6f;color:#4edaef}
-.widget ul li a i {display:block;margin:0 auto}
+.widget ul li a i {display:block;margin:0 auto;transition:all 300ms ease}
+.widget ul li a:hover i {transform:translate(0, -7px)}
 
 /* */
 
