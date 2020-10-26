@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="css/common.css" />    
 	<link rel="stylesheet" href="css/sub.css" />
 	<link rel="stylesheet" href="css/board.css" />
-	<link rel="stylesheet" href="css/jquery.fancybox.css" />
 	<script src="inc/snb.js"></script>
 	<script src="js/jquery-1.11.2.min.js"></script>
 </head>
@@ -136,29 +135,6 @@
 	<script src="js/jquery.placeholder.min.js"></script>
 	<script src="js/easing.js"></script>
 	<script src="js/common.js"></script>    
-	<script src="js/jquery.fancybox.pack.js"></script>
-
-	<script>
-
-		$(document).ready(function() {
-			$(".fancybox").fancybox({
-				maxWidth	: 800,
-				maxHeight	: 600,
-				fitToView	: true,
-				autoSize	: true,
-				closeClick	: true,
-				openEffect	: 'none',
-				closeEffect	: 'none'
-			});
-
-			$(".cont").find('img').each(function() {
-				var aa = $(this).attr('src');
-				$(this).wrap('<a href=' + aa + ' class="fancybox" rel="gallery" title="지도">');
-			});
-
-		});
-
-	</script>
 
 </body>
 </html>
