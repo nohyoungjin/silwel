@@ -154,11 +154,28 @@ $(function() {
 			accessibility: false,
 			arrows: false,
 			autoplay: true,
-			autoplaySpeed: 5000,
+			autoplaySpeed: 3000,
 			dots: true,
 			fade: true,
 			slidesToShow: 1,
 			slidesToScroll: 1
+		});
+
+		// visual pause, play (pc)
+
+		$('.visual_btn .btn_play').on('click', function() {
+
+			var $pauseBtn = $(this);
+
+			if ($pauseBtn.hasClass('on')) {
+				$('.visual').slick('slickPlay');
+				$(this).text('정지');
+				$pauseBtn.removeClass('on');
+			} else {
+				$('.visual').slick('slickPause');
+				$(this).text('재생');
+				$pauseBtn.addClass('on');
+			}
 		});
 
 	}
