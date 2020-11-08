@@ -22,10 +22,10 @@ SUMMARY :
 .visual .slick-track {overflow:hidden}
 .visual .slick-track div {height:840px}
 
-.visual div.d_01 {background:url(../img/main/banner_01.jpg) repeat 50% 50%}
-.visual div.d_02 {background:url(../img/main/banner_02.jpg) repeat 50% 50%}
-.visual div.d_03 {background:url(../img/main/banner_03.jpg) repeat 50% 50%}
-.visual div.d_04 {background:url(../img/main/banner_04.jpg) repeat 50% 50%}
+.visual div.d_01 {background:url(../img/main/banner_01.jpg) no-repeat center / cover}
+.visual div.d_02 {background:url(../img/main/banner_02.jpg) no-repeat center / cover}
+.visual div.d_03 {background:url(../img/main/banner_03.jpg) no-repeat center / cover}
+.visual div.d_04 {background:url(../img/main/banner_04.jpg) no-repeat center / cover}
 
 .message {display:table;height:100%;margin:0 auto;text-align:center}
 .message .inner {display:table-cell;vertical-align:middle}
@@ -42,7 +42,7 @@ SUMMARY :
 .visual .slick-dots li button {display:block;overflow:hidden;width:12px;height:12px;margin:0 6px;background:#c9c9c8;text-indent:-999px;cursor:pointer;border-radius:6px}
 .visual .slick-dots li.slick-active button {background:#506c87}
 
-.visual_btn {position:absolute;left:50%;bottom:234px;z-index:1;margin-left:56px}
+.visual_btn {position:absolute;left:50%;bottom:235px;z-index:1;margin-left:56px}
 .btn_play {display:block;width:10px;height:13px;background:url(../img/main/visual_pause_icon.png) no-repeat center;text-indent:-9999px;cursor:pointer}
 .btn_play.on {background:url(../img/main/visual_play_icon.png) no-repeat center}
 

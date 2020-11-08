@@ -11,13 +11,13 @@ SUMMARY :
 
 /* page head */
 
-.spot {width:100%;height:280px;background:url(../img/common/visual_1.jpg) no-repeat center center;font-size:38px}
-.spot.bg02 {background:url(../img/common/visual_2.jpg) no-repeat center center}
-.spot.bg03 {background:url(../img/common/visual_3.jpg) no-repeat center center}
-.spot.bg04 {background:url(../img/common/visual_4.jpg) no-repeat center center}
-.spot.bg05 {background:url(../img/common/visual_5.jpg) no-repeat center center}
-.spot.bg06 {background:url(../img/common/visual_6.jpg) no-repeat center center}
-.spot.bg07 {background:url(../img/common/visual_7.jpg) no-repeat center center}
+.spot {width:100%;height:280px;background:url(../img/common/visual_1.jpg) no-repeat center / cover;font-size:38px}
+.spot.bg02 {background:url(../img/common/visual_2.jpg) no-repeat center / cover}
+.spot.bg03 {background:url(../img/common/visual_3.jpg) no-repeat center / cover}
+.spot.bg04 {background:url(../img/common/visual_4.jpg) no-repeat center / cover}
+.spot.bg05 {background:url(../img/common/visual_5.jpg) no-repeat center / cover}
+.spot.bg06 {background:url(../img/common/visual_6.jpg) no-repeat center / cover}
+.spot.bg07 {background:url(../img/common/visual_7.jpg) no-repeat center / cover}
 
 .spot .inner {display:table;position:relative;width:100%;height:280px;text-align:center}
 .spot .inner .cell {display:table-cell;vertical-align:middle;color:#fff;letter-spacing:-0.5px}
