@@ -323,7 +323,7 @@ SUMMARY :
 .box_2 {margin:20px 0;padding:30px;background-color:#fbfbfb;text-align:center}
 .box_2 h5 {padding:0 0 20px;font-size:24px;color:#105188}
 .box_2 ul li {position:relative;padding:0 0 5px 12px;font-size:15px;text-align:left;line-height:24px}
-.box_2 ul li:before {content:'';display:inline-block;position:absolute;top:9px;left:0;width:4px;height:4px;background-color:#888}
+.box_2 ul li:before {content:'';display:inline-block;position:absolute;top:11px;left:0;width:4px;height:4px;background-color:#888}
 .box_2 ul li span {display:inline-block;padding:5px 0 0 2px;font-size:13px;line-height:18px}
 .box_2 ul li span.span02 {padding:5px 0 0 15px}
 
