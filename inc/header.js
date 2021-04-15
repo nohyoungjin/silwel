@@ -74,4 +74,4 @@ str += '	</div>'
 str += ''
 str += '</div>'
 
-document.write(str);
+document.write(str)
